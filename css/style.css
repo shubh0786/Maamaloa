@@ -223,6 +223,7 @@ header{
 .categories{
 
 background: var(--color-bg1);
+/* height: 29rem ; */
 }
 
 .categories h1{
@@ -235,12 +236,16 @@ background: var(--color-bg1);
 
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 4rem;
+   
 }
 .categories__left p{
 
     margin: 1rem 0 3rem ;
 
+}
+
+.categories__left{
+    margin-right: 4rem;
 }
 
 .categories__right{
@@ -260,6 +265,24 @@ background: var(--color-bg1);
 
 .category:hover{
 
-    box-shadow: 0 3rem 3rem ;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.812) ;
+    z-index: 1;
 }
 
+.category__icon{
+
+    background: var(--color-primary);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category h5{
+
+    margin: 2rem 0 1rem;
+
+}
+
+.category p{
+
+    font-size: 0.85rem;
+}
