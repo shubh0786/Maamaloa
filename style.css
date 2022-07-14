@@ -129,8 +129,8 @@ img{
 nav{
 
     background: transparent;
-    width: 100vh;
-    height: 5rem;
+    width: 100vw;
+    height: 7rem;
     position: fixed;
     top: 0;
     z-index: 11;
@@ -138,6 +138,12 @@ nav{
 
 
 
+}
+
+.window-scroll{
+
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2) ;
 }
 
 .nav__container{
@@ -150,6 +156,8 @@ nav{
     
 
 }
+
+
 
 nav button{
 
@@ -164,7 +172,7 @@ nav button{
     align-items: center;
     gap: 2rem;
     
-    margin-left: 30rem;
+    margin-left: 25rem;
     
 
 }
@@ -297,4 +305,59 @@ background: var(--color-bg1);
 .category p{
 
     font-size: 0.85rem;
+}
+
+
+
+footer{
+
+    background: var(--color-bg);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+
+}
+
+.footer__container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer__container > div h4 {
+
+    margin-bottom: 1.2rem;
+}
+
+.footer__1 p{
+
+    margin: 0 0 2rem;;
+
+}
+
+footer ul li{
+
+    margin-bottom:0.7rem;
+}
+
+footer ul li a:hover{
+
+    text-decoration: underline;
+}
+
+
+.footer__socials{
+
+    display: flex;
+    gap: 1em;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer__copyright{
+
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.2rem 0; 
+    border-top: 1px solid var(--color-bg2);
 }
