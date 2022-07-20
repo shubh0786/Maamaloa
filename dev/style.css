@@ -202,7 +202,7 @@ header{
     top: 5rem;
     overflow: hidden;
     height: 70vh;
-    margin-bottom: 5rem;
+    margin-bottom: 18rem;
 }
 
 .header__container{
@@ -211,12 +211,12 @@ header{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 }
 .header__container a,p{
 
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .build{
@@ -360,4 +360,55 @@ footer ul li a:hover{
     margin-top: 2rem;
     padding: 1.2rem 0; 
     border-top: 1px solid var(--color-danger);
+}
+
+.slides{
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+
+    width: 700px;
+    height: 600px;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+
+.slide{
+
+
+    width: 500%;
+    height: 500px;
+    display: flex;
+
+
+}
+
+.slide input{
+
+    display: none;
+
+}
+.st{
+
+    width: 20%;
+    transition: 2s;
+}
+
+.st img{
+
+    width: 800px;
+    height: 500px;
+}
+
+.nav-m{
+
+
 }
