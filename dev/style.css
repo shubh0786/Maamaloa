@@ -599,28 +599,43 @@ nav button#close-menu-btn{
     color:var(--color-danger);
 }
 
+.slider{
+
+    height: 40vh;
+    width: 40vw;
 }
 
-#seciton_leftcolor {
-    background-color: rgba(128, 128, 128,0.3);
-    height: 90%;
-    position: absolute;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    top: 20%;
-    left: 10%;
-    width: 40%;
+img{
+
+
+    display:grid;
+    object-fit:fill;
+    height: 200px;
+
+   
 }
 
-#seciton_rightcolor {
-    background-color: rgba(128, 128, 128,0.3);
-    height: 90%;
-    position: absolute;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    top: 20%;
-    left: 53%;
-    width: 40%;
+
+#radio:checked ~ .nav-auto .a-b1{
+
+    display: none;
 }
+
+
+#radio:checked ~ .nav-auto .a-b2{
+    display: none;
+}
+
+
+#radio:checked ~ .nav-auto .a-b3{
+
+    display: none;
+}
+
+#radio:checked ~ .nav-auto .a-b4{
+
+    display: none;
+}
+
+}
+
