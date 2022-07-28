@@ -267,6 +267,11 @@ footer ul li a:hover{
 
 }
 
+.menue_news.talk{
+    background: url("images/toloa-band2.jpg") center center / cover no-repeat fixed;
+
+}
+
 .menue_news h2{
     position: relative;
     z-index: 2;
