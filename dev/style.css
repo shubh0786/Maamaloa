@@ -599,4 +599,43 @@ nav button#close-menu-btn{
     color:var(--color-danger);
 }
 
+.slider{
+
+    height: 40vh;
+    width: 40vw;
 }
+
+img{
+
+
+    display:grid;
+    object-fit:fill;
+    height: 200px;
+
+   
+}
+
+
+#radio:checked ~ .nav-auto .a-b1{
+
+    display: none;
+}
+
+
+#radio:checked ~ .nav-auto .a-b2{
+    display: none;
+}
+
+
+#radio:checked ~ .nav-auto .a-b3{
+
+    display: none;
+}
+
+#radio:checked ~ .nav-auto .a-b4{
+
+    display: none;
+}
+
+}
+
