@@ -600,3 +600,27 @@ nav button#close-menu-btn{
 }
 
 }
+
+#seciton_leftcolor {
+    background-color: rgba(128, 128, 128,0.3);
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+}
+
+#seciton_rightcolor {
+    background-color: rgba(128, 128, 128,0.3);
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 20%;
+    left: 53%;
+    width: 40%;
+}
