@@ -268,7 +268,16 @@ footer ul li a:hover{
 }
 
 .menue_news.talk{
-    background: url("images/toloa-band2.jpg") center center / cover no-repeat fixed;
+    background: url("images/toloa-building2.jpg") center center / cover no-repeat fixed;
+
+}
+
+.menue_news.events{
+    background: url("images/brasband.jpg") center center / cover no-repeat fixed;
+}
+
+.menue_news.important{
+    background: url("images/toloa-building2.jpg") center center / cover no-repeat fixed;
 
 }
 
