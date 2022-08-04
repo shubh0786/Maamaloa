@@ -624,3 +624,86 @@ nav button#close-menu-btn{
     left: 53%;
     width: 40%;
 }
+.container_booking {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+}
+.background_booking {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+}
+.booking_box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.menu_book {
+    background: url("images/toloa-building2.jpg") center center / cover no-repeat fixed;
+}
+
+.background_book {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+}
+
+.section_booking {
+    height: 70%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 30%;
+    left: 30%;
+    right: 30%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_box{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: dimgrey;
+    border-radius: 8px;
+    opacity:0.7;
+}
+.form-group{
+    width:100%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.form-group input{
+    width: 100%;
+    padding: 2%;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 10%;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:20px;
+    font-size: 24px;
+    border-radius: 8px;
+}
